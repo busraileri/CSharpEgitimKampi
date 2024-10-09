@@ -150,21 +150,21 @@ namespace _04_Loops
 
 			//456
 
-			Console.Write("Sayı giriniz: ");
-			int number = int.Parse(Console.ReadLine());
+			//Console.Write("Sayı giriniz: ");
+			//int number = int.Parse(Console.ReadLine());
 
-			int ones, tens, hundreds;
-			int sum;
+			//int ones, tens, hundreds;
+			//int sum;
 
-			ones = number % 10;
-			tens = (number % 100) / 10;
-			hundreds = number / 100; //int olduğu için 4.56 -> 4
+			//ones = number % 10;
+			//tens = (number % 100) / 10;
+			//hundreds = number / 100; //int olduğu için 4.56 -> 4
 
-			Console.WriteLine(ones + "-" + tens + "-" + hundreds);
+			//Console.WriteLine(ones + "-" + tens + "-" + hundreds);
 
-			sum = ones + tens + hundreds;
+			//sum = ones + tens + hundreds;
 
-			Console.WriteLine(sum);
+			//Console.WriteLine(sum);
 
 			#endregion
 
